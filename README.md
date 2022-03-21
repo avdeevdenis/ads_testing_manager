@@ -1,2 +1,3 @@
-# ads_testing_manager
-ADS Testing Manager
+# ADS Testing Manager
+
+https://avdeevdenis.com/
