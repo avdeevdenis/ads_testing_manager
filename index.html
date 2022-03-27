@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+  <title>ADS Testing Manager</title>
+  <style>
+    body {
+      margin: 15px;
+    }
+
+    .link {
+      padding: 8px 12px;
+      margin: 10px;
+      display: inline-block;
+
+      font-size: 17px;
+
+      color: blue;
+
+      letter-spacing: 1px;
+
+      text-decoration: none;
+
+      background: rgba(130, 130, 130, .1);
+      border-radius: 4px;
+
+      border-right: 3px solid silver;
+      border-top: 3px solid silver;
+    }
+
+    .link::before {
+      content: '• ';
+      position: relative;
+      margin-right: 5px;
+    }
+
+    .link:hover {
+      color: red;
+      background: rgba(110, 110, 110, .1);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <a class="link" href="/video_in_combo/?width=500&height=400">Видео в комбо</a>
+
+    <br />
+    <a class="link" href="/fullscreen_video">Фуллскрин видео</a>
+
+    <br />
+    <a class="link" href="/rewarded">Rewarded</a>
+  </div>
+
+</body>
+
+</html>
