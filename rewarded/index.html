@@ -35,6 +35,9 @@
             onAdStart: () => console.log('ON AD START'),
             onAdEnd: () => console.log('ON AD END')
           },
+          onRewarded: (...options) => {
+              console.log('onRewarded called', options);
+          },
           onError: function (data) {
             console.log('type', data.type); // error или warning
             console.log('code', data.code); // Код ошибки из таблицы выше
